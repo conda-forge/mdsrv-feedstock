@@ -1,11 +1,13 @@
-build_number_decrement:
-- '0'
+c_compiler:
+- gcc
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 docker_image:
 - condaforge/linux-anvil-comp7
+numpy:
+- '1.9'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -14,10 +16,5 @@ pin_run_as_build:
     max_pin: x.x
 python:
 - '3.6'
-zip_keys:
-- - channel_sources
-  - channel_targets
-  - docker_image
-  - build_number_decrement
 zlib:
 - '1.2'
