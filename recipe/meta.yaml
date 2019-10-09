@@ -1,6 +1,6 @@
 {% set name = "MDsrv" %}
-{% set version = "0.3.5" %}
-{% set sha256 = "3dd218ec0d62cf47061699b8ab33715d6875fad824091f2ab37e546467fef0c3" %}
+{% set version = "0.3.5.post1" %}
+{% set sha256 = "fe7037f467e7cb63a8978a73dc327f4db5cd888d98faaf8e46f7278f60d769cf" %}
 
 
 package:
