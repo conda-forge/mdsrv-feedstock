@@ -1,7 +1,11 @@
+c_compiler:
+- vs2015
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
+numpy:
+- '1.14'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -9,6 +13,9 @@ pin_run_as_build:
   zlib:
     max_pin: x.x
 python:
-- '2.7'
+- '3.6'
+zip_keys:
+- - python
+  - c_compiler
 zlib:
 - '1.2'
